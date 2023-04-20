@@ -1,0 +1,164 @@
+#scroll-button{
+    position: absolute;
+    bottom: -1vw;
+    left: 50%;
+    background-color: black;
+    width: 8vw;
+    height: 9vw;
+    object-fit: fill;
+    transform: translate(-50%, 0);
+}
+#scroll-button:hover{
+    scale: 0.9;
+    transition: 0.4s;
+}
+#scroll-button>a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vw;
+}
+#scroll-button>a>img{
+    position: absolute;
+    top: 1vw;
+    width: 80%;
+    height: 80%;
+}
+.content{
+    font-size: 2vw;
+}
+
+.scrolled{
+    top: -100vh;
+    position: fixed;
+}
+
+/* Credits: Adam Dipinto -> https://github.com/atom888 */
+
+#landing-page {
+    position: relative;
+    background-size: 100px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+}
+#welcome-eyecatcher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 10px;
+    width: 40vw;
+    aspect-ratio: 1/1;
+}
+#welcome-eyecatcher span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+}
+#welcome-eyecatcher span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+#welcome-eyecatcher span:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
+    transition: 0.5s;
+    animation: animate2 10s linear infinite;
+}
+.content {
+    position: absolute;
+    padding: 40px 60px;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+.content>p{
+  
+}
+.content>p:after{
+    content:"Frontend Developer";
+    font-size: 100%;
+    animation: head 20s infinite;
+}
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typewriter 3s steps(20, end),
+      blink-cursor .75s step-end infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes head {
+    0% {font-size:100%; opacity:1;}
+    10% {font-size:100%; opacity:1;}
+    15% {font-size:80%; opacity:0; content: "Frontend Developer"}
+    20% {font-size:80%; opacity:0; content: "Full-Stack Developer"}
+
+    25% {font-size:100%; opacity:1;}
+    35% {font-size:100%; opacity:1;}
+    40% {font-size:80%; opacity:0;content: "Full-Stack Developer"}
+    45% {font-size:80%; opacity:0;content: "Data Scientist"}
+
+    50% {font-size:100%; opacity:1;}
+    60% {font-size:100%; opacity:1;}
+    65% {font-size:80%; opacity:0;content: "Data Scientist"}
+    70% {font-size:80%; opacity:0;content: "Runner"}
+
+    75% {font-size:100%; opacity:1;}
+    85% {font-size:100%; opacity:1;}
+    90% {font-size:80%; opacity:0;content: "Runner"}
+    95% {font-size:80%; opacity:0;content: "Frontend Developer"}
+
+    100% {font-size:100%;opacity:1;}
+}
+
+
+
