@@ -65,9 +65,9 @@ const Portfolio = () => {
                 <div id="personal-header">
                     <h1 className="section-header">PERSONAL</h1>
                 </div>
-                <div className="container" id="personal-container">
+                <div className="container" id="personal-body">
                     <div className="" id="personal-headshot">
-                        <img src={image} alt="profile" width="25%" height="auto"/>
+                        <img src={image} alt="profile"/>
                     </div>
                     <div className="" id="personal-text">
                         <h6>Thanks for visiting!</h6>
@@ -86,10 +86,14 @@ const Portfolio = () => {
         
             <section id="skills-section">
                 <div id="skills-heading">
-                    <div id="skills-subheading">
+                    {/*<div id="skills-subheading">
                         <img src={require("./images/below-icon.png")} alt="below icon"/>
                         <h2>WHAT CAN I DO?</h2>
                         <img src={require("./images/below-icon.png")} alt="below icon"/>
+                    </div>*/}
+                    <div id="skills-subheading">
+                        <h2>WHAT CAN I DO?</h2>
+                        <img src={require("./images/arrow.png")} alt="below icon"/>
                     </div>
                     <div id="skills-subheading-2">
                         <a href={CV}  id="download-button" download="DominicHart_CV">
@@ -100,7 +104,6 @@ const Portfolio = () => {
                             
                         </a>
                     </div>
-                    
                 </div>
                 <div className="flex-grid">
                     

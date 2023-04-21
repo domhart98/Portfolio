@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ace02cc.css",
-    "main.js": "/static/js/main.d6fbc54b.js",
+    "main.css": "/static/css/main.9c927528.css",
+    "main.js": "/static/js/main.c18fd991.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/green-office.png": "/static/media/green-office.831013396c45d22a6b71.png",
     "static/media/c-icon.png": "/static/media/c-icon.7a106a3a2e606e44eb91.png",
@@ -17,18 +17,19 @@
     "static/media/calculator.png": "/static/media/calculator.e1e89476849fb84ddd50.png",
     "static/media/mysql-icon.png": "/static/media/mysql-icon.7d8d571e5629923eaf74.png",
     "static/media/node-icon.png": "/static/media/node-icon.0548a9003aec0112dffc.png",
+    "static/media/arrow.png": "/static/media/arrow.c1a1c86ae40558f66084.png",
     "static/media/figma-icon.png": "/static/media/figma-icon.72fbc535ebe253a5dbc4.png",
     "static/media/html5-icon.png": "/static/media/html5-icon.94972f53c025a8fb7e2b.png",
     "static/media/css3-icon.png": "/static/media/css3-icon.8c04a868912475a48d9b.png",
     "static/media/javascript-icon.png": "/static/media/javascript-icon.3dfb665e058d08c99f28.png",
     "static/media/heart-icon.svg": "/static/media/heart-icon.f52cc3000558c3485cb018d09bad9cd6.svg",
     "index.html": "/index.html",
-    "main.5ace02cc.css.map": "/static/css/main.5ace02cc.css.map",
-    "main.d6fbc54b.js.map": "/static/js/main.d6fbc54b.js.map",
+    "main.9c927528.css.map": "/static/css/main.9c927528.css.map",
+    "main.c18fd991.js.map": "/static/js/main.c18fd991.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ace02cc.css",
-    "static/js/main.d6fbc54b.js"
+    "static/css/main.9c927528.css",
+    "static/js/main.c18fd991.js"
   ]
 }

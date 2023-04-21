@@ -22,12 +22,13 @@ const LandingPage = () => {
                     My name is Dominic Hart, 
                     <br/>
                 </p>
+                <div id="scroll-button">
+                    <a href="#navbar" onClick={handleButtonClick}>
+                        <img src={require('./images/below-icon.png')} width="4vw" height="4vw" alt=""/>
+                    </a>
+                </div>
             </div>
-            <div id="scroll-button">
-                <a href="#navbar" onClick={handleButtonClick}>
-                    <img src={require('./images/below-icon-inverted.png')} width="60px" height="60px" alt=""/>
-                </a>
-            </div>
+            
         </div>
     )
 }
