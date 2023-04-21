@@ -24,31 +24,31 @@ const projects = [
     {
         name:"POMODORO CLOCK",
         git_url:"https://github.com/domhart98/freeCodeCamp---Frontend-Certification",
-        live_url:"https://dominic-hart-portfolio.netlify.app/clock",
+        live_url:"https://freecodecamp-components.netlify.app/clock",
         description:"Clock which runs continously, switching from Session to Break states when time reaches 00:00"
     },
     {
         name:"MARKDOWN PREVIEWER",
         git_url:"https://github.com/domhart98/freeCodeCamp---Frontend-Certification",
-        live_url:"https://dominic-hart-portfolio.netlify.app/markdown",
+        live_url:"https://https://freecodecamp-components.netlify.app/markdown",
         description:"One half text area to input markdown language, other half previews what the markdown will appear as."
     },
     {
         name:"RANDOM QUOTE GENERATOR",
         git_url:"https://github.com/domhart98/freeCodeCamp---Frontend-Certification",
-        live_url:"https://dominic-hart-portfolio.netlify.app",
+        live_url:"https://freecodecamp-components.netlify.app",
         description:"Small widget which displays a random quote from a dataset. You can change the quote, or post it to twitter."
     },
     {
         name:"DRUM KIT",
         git_url:"https://github.com/domhart98/freeCodeCamp---Frontend-Certification",
-        live_url:"https://dominic-hart-portfolio.netlify.app/clock",
+        live_url:"https://freecodecamp-components.netlify.app/drum",
         description:"Set of buttons which are triggered by clicking on them, or pressing the corresponding keys."
     },
     {
         name:"CALCULATOR",
         git_url:"https://github.com/domhart98/freeCodeCamp---Frontend-Certification",
-        live_url:"https://dominic-hart-portfolio.netlify.app/clock",
+        live_url:"https://freecodecamp-components.netlify.app/calculator",
         description:"Simple calculator which can do addition, subtraction, multiplacation and division."
     }
 ]
